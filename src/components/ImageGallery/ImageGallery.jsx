@@ -43,7 +43,7 @@ export default class ImageGallery extends Component {
         images: [...prevState.images, ...hits],
       }));
     } catch (error) {
-      alert(new Error('Somthing went wrong'));
+      alert(new Error('Это конец!'));
     } finally {
       this.setState({ loading: false });
     }
